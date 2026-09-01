@@ -1,0 +1,64 @@
+// Token visivi derivati dallo screenshot di riferimento. Centralizzati: nessun hex nei componenti.
+
+// --- Testi ---------------------------------------------------------------
+$color-text-primary: #1b1e18;
+$color-text-secondary: #6d736a;
+$color-text-muted: #8b9189;
+
+// --- Superfici & bordi ---------------------------------------------------
+$color-surface: #ffffff;
+$color-surface-soft: #f6f7f3;
+$color-page: #fcfcfa;
+$color-border: #e5e7e2;
+$color-border-strong: #d4d8d1;
+
+// --- Brand ---------------------------------------------------------------
+$color-brand-green: #3d6b35;
+$color-brand-green-dark: #2e5228;
+$color-brand-green-soft: #eef4ea;
+$color-brand-green-border: #cfe0c6;
+
+// --- Ripartizione (barra e legenda) --------------------------------------
+$color-tax-net: #44632f;
+$color-tax-inps: #a9cd8f;
+$color-tax-irpef: #f2c265;
+$color-tax-regional: #9d7fd8;
+$color-tax-municipal: #ef8fc0;
+
+// --- Spaziature ----------------------------------------------------------
+$space-1: 4px;
+$space-2: 8px;
+$space-3: 12px;
+$space-4: 16px;
+$space-5: 20px;
+$space-6: 24px;
+$space-8: 32px;
+$space-10: 40px;
+$space-12: 48px;
+
+// --- Raggi ---------------------------------------------------------------
+$radius-card: 12px;
+$radius-input: 10px;
+$radius-tile: 10px;
+
+// --- Tipografia ----------------------------------------------------------
+$font-family-base: Inter, 'Helvetica Neue', Arial, sans-serif;
+
+$font-size-h1: 38px;
+$font-size-h2: 21px;
+$font-size-title: 16px;
+$font-size-body: 14px;
+$font-size-secondary: 12.5px;
+$font-size-caption: 11.5px;
+$font-size-amount: 30px;
+$font-size-amount-lg: 34px;
+
+// --- Layout --------------------------------------------------------------
+$sidebar-width: 270px;
+$sidebar-width-collapsed: 68px;
+$content-max-width: 1400px;
+$control-height: 56px;
+
+// --- Motion --------------------------------------------------------------
+$transition-fast: 160ms ease;
+$transition-base: 200ms ease;

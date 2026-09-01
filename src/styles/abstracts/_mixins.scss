@@ -1,0 +1,46 @@
+@use 'variables' as *;
+
+// Breakpoint del prototipo: desktop-first con fallback progressivi.
+$bp-breakdown: 1100px; // colonne del dettaglio si impilano
+$bp-parameters: 980px; // card parametri/risultato si impilano
+$bp-sidebar: 940px; // sidebar → header compatto
+$bp-phone: 600px; // micro-adjust mobile
+
+@mixin breakdown-down {
+  @media (max-width: #{$bp-breakdown - 1px}) {
+    @content;
+  }
+}
+
+@mixin parameters-down {
+  @media (max-width: #{$bp-parameters - 1px}) {
+    @content;
+  }
+}
+
+@mixin sidebar-down {
+  @media (max-width: #{$bp-sidebar - 1px}) {
+    @content;
+  }
+}
+
+@mixin phone-down {
+  @media (max-width: #{$bp-phone - 1px}) {
+    @content;
+  }
+}
+
+@mixin heading-section {
+  font-size: $font-size-h2;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.3;
+  color: $color-text-primary;
+}
+
+@mixin focus-ring {
+  &:focus-visible {
+    outline: 2px solid $color-brand-green;
+    outline-offset: 2px;
+  }
+}

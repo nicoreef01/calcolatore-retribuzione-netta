@@ -1,0 +1,11 @@
+node_modules/
+dist/
+.shots/
+.claude/
+.vercel/
+*.local
+*.log
+schermata_prototipo_ai_builder_calcolatore_ret_net.png
+project_extra_tip.md
+project_roles.md
+CLAUDE.md
