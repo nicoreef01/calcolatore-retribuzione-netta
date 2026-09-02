@@ -88,21 +88,4 @@ src/
 └── config/appContent.ts    copy e contenuti configurabili
 ```
 
-I componenti non contengono formule: ricevono risultati tipati dal motore tramite la composable. Gli scaglioni IRPEF/regionali sono dati di configurazione passati a `calculateProgressiveTax` (Open/Closed). Le viste dell'interfaccia non hanno mai valori hard-coded: ogni cifra deriva dal motore.
-
-## Potential production improvements
-
-Per diventare un vero prodotto payroll servirebbe:
-
-- CCNL e classificazione del dipendente (minimo tabellare, indennità)
-- posizione INPS reale: fondo di previdenza, aliquote specifiche, massimali contributivi
-- settore aziendale e edadoliday/agevolazioni di settore
-- base imponibile mensile e conguagli, meccanica acconto/saldo delle addizionali
-- anno fiscale configurabile (scaglioni e detrazioni storicizzati)
-- detrazioni per familiari a carico, spese deducibili, oneri
-- benefit, fringe benefit, premi, welfare aziendale
-- periodo di lavoro effettivo (assunzioni/cessazioni, proporzioni per giorni)
-- TFR e trattamenti differiti
-- arrotondamenti da cedolino (per centesimi), meccanica 13ª/14ª reale
-- riconciliazione annuale e variazioni di domicilio fiscale nel corso dell'anno
-- strategia di aggiornamento normativo (configurazione per anno/territorio, test di regola)
+I componenti non contengono formule: ricevono risultati tipati dal motore tramite la composable. Gli scaglioni IRPEF/regionali sono dati di configurazione passati a `calculateProgressiveTax` (Open/Closed). Ogni cifra deriva dal "motore".
